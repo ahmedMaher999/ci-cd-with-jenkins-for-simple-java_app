@@ -1,0 +1,13 @@
+pipline{
+    agent any
+
+    stages{
+        stage('build'){
+            steps{
+                script{
+                    echo "build in process"
+                }
+            }
+        }
+    }
+}

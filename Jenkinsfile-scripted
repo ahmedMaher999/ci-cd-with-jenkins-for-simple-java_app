@@ -1,0 +1,9 @@
+// scripted jenkinsfile
+
+node{
+    git branch: 'main', url: 'https://github.com/ahmedMaher999/ci-cd-with-jenkins-for-simple-java_app.git'
+
+    stage('build'){
+        sh 'echo "build in progress"'
+    }
+}
